@@ -1,0 +1,234 @@
+// Trace Application_1138441532
+digraph {
+	0 [label="A_Create Application
+(complete)
+2016-10-06 20:53:58.508000+00:00" color=green]
+	1 [label="A_Submitted
+(complete)
+2016-10-06 20:53:59.372000+00:00" color=green]
+	2 [label="W_Handle leads
+(schedule)
+2016-10-06 20:53:59.888000+00:00" color=blue]
+	3 [label="W_Handle leads
+(withdraw)
+2016-10-06 20:54:32.900000+00:00" color=red]
+	4 [label="W_Complete application
+(schedule)
+2016-10-06 20:54:32.907000+00:00" color=blue]
+	5 [label="A_Concept
+(complete)
+2016-10-06 20:54:32.911000+00:00" color=green]
+	6 [label="W_Complete application
+(start)
+2016-10-07 13:16:47.138000+00:00" color=black]
+	7 [label="W_Complete application
+(suspend)
+2016-10-07 13:18:26.447000+00:00" color=black]
+	8 [label="W_Complete application
+(resume)
+2016-10-12 08:15:19.735000+00:00" color=black]
+	9 [label="W_Complete application
+(suspend)
+2016-10-12 08:16:02.387000+00:00" color=black]
+	10 [label="W_Complete application
+(resume)
+2016-10-12 08:25:23.877000+00:00" color=black]
+	11 [label="W_Complete application
+(suspend)
+2016-10-12 08:26:59.205000+00:00" color=black]
+	12 [label="W_Complete application
+(resume)
+2016-10-12 11:03:16.565000+00:00" color=black]
+	13 [label="A_Accepted
+(complete)
+2016-10-12 11:10:13.670000+00:00" color=green]
+	14 [label="O_Create Offer
+(complete)
+2016-10-12 11:13:38.759000+00:00" color=green]
+	15 [label="O_Created
+(complete)
+2016-10-12 11:13:39.574000+00:00" color=green]
+	16 [label="O_Sent (mail and online)
+(complete)
+2016-10-12 11:15:10.915000+00:00" color=green]
+	17 [label="W_Complete application
+(complete)
+2016-10-12 11:15:10.928000+00:00" color=green]
+	18 [label="W_Call after offers
+(schedule)
+2016-10-12 11:15:10.934000+00:00" color=blue]
+	19 [label="W_Call after offers
+(start)
+2016-10-12 11:15:10.936000+00:00" color=black]
+	20 [label="A_Complete
+(complete)
+2016-10-12 11:15:10.938000+00:00" color=green]
+	21 [label="W_Call after offers
+(suspend)
+2016-10-12 11:16:30.318000+00:00" color=black]
+	22 [label="W_Call after offers
+(resume)
+2016-10-17 16:23:08.800000+00:00" color=black]
+	23 [label="W_Call after offers
+(suspend)
+2016-10-17 16:23:38.666000+00:00" color=black]
+	24 [label="W_Call after offers
+(ate_abort)
+2016-10-21 09:22:55.054000+00:00" color=black]
+	25 [label="W_Validate application
+(schedule)
+2016-10-21 09:22:55.059000+00:00" color=blue]
+	26 [label="W_Validate application
+(start)
+2016-10-21 09:22:55.061000+00:00" color=black]
+	27 [label="A_Validating
+(complete)
+2016-10-21 09:22:56.134000+00:00" color=green]
+	28 [label="O_Returned
+(complete)
+2016-10-21 09:23:07.463000+00:00" color=green]
+	29 [label="W_Validate application
+(suspend)
+2016-10-21 09:24:23.062000+00:00" color=black]
+	30 [label="W_Validate application
+(ate_abort)
+2016-10-24 09:15:27.479000+00:00" color=black]
+	31 [label="W_Call incomplete files
+(schedule)
+2016-10-24 09:15:27.487000+00:00" color=blue]
+	32 [label="W_Call incomplete files
+(start)
+2016-10-24 09:15:27.489000+00:00" color=black]
+	33 [label="A_Incomplete
+(complete)
+2016-10-24 09:15:27.491000+00:00" color=green]
+	34 [label="W_Call incomplete files
+(suspend)
+2016-10-24 09:15:41.152000+00:00" color=black]
+	35 [label="W_Call incomplete files
+(resume)
+2016-10-24 14:51:49.501000+00:00" color=black]
+	36 [label="W_Call incomplete files
+(suspend)
+2016-10-24 14:53:41.849000+00:00" color=black]
+	37 [label="W_Call incomplete files
+(resume)
+2016-10-31 07:56:34.933000+00:00" color=black]
+	38 [label="W_Call incomplete files
+(suspend)
+2016-10-31 07:57:28.040000+00:00" color=black]
+	39 [label="W_Call incomplete files
+(ate_abort)
+2016-11-03 08:03:21.433000+00:00" color=black]
+	40 [label="W_Validate application
+(schedule)
+2016-11-03 08:03:21.440000+00:00" color=blue]
+	41 [label="W_Validate application
+(start)
+2016-11-03 08:03:21.441000+00:00" color=black]
+	42 [label="A_Validating
+(complete)
+2016-11-03 08:03:21.498000+00:00" color=green]
+	43 [label="W_Validate application
+(complete)
+2016-11-03 08:04:08.190000+00:00" color=green]
+	44 [label="W_Call incomplete files
+(schedule)
+2016-11-03 08:04:08.195000+00:00" color=blue]
+	45 [label="W_Call incomplete files
+(start)
+2016-11-03 08:04:08.197000+00:00" color=black]
+	46 [label="A_Incomplete
+(complete)
+2016-11-03 08:04:08.198000+00:00" color=green]
+	47 [label="W_Call incomplete files
+(suspend)
+2016-11-03 08:09:02.334000+00:00" color=black]
+	48 [label="W_Call incomplete files
+(resume)
+2016-11-03 10:38:02.736000+00:00" color=black]
+	49 [label="W_Call incomplete files
+(suspend)
+2016-11-03 10:39:17.127000+00:00" color=black]
+	50 [label="W_Call incomplete files
+(ate_abort)
+2016-11-03 14:47:51.290000+00:00" color=black]
+	51 [label="W_Validate application
+(schedule)
+2016-11-03 14:47:51.297000+00:00" color=blue]
+	52 [label="W_Validate application
+(start)
+2016-11-03 14:47:51.299000+00:00" color=black]
+	53 [label="A_Validating
+(complete)
+2016-11-03 14:47:51.354000+00:00" color=green]
+	54 [label="W_Validate application
+(suspend)
+2016-11-03 14:48:39.796000+00:00" color=black]
+	55 [label="A_Denied
+(complete)
+2016-11-04 07:17:59.222000+00:00" color=green]
+	56 [label="O_Refused
+(complete)
+2016-11-04 07:17:59.247000+00:00" color=green]
+	57 [label="W_Validate application
+(ate_abort)
+2016-11-04 07:17:59.256000+00:00" color=black]
+	0 -> 1
+	1 -> 2
+	2 -> 3
+	3 -> 4
+	4 -> 5
+	5 -> 6
+	6 -> 7
+	7 -> 8
+	8 -> 9
+	9 -> 10
+	10 -> 11
+	11 -> 12
+	12 -> 13
+	13 -> 14
+	14 -> 15
+	15 -> 16
+	16 -> 17
+	17 -> 18
+	18 -> 19
+	19 -> 20
+	20 -> 21
+	21 -> 22
+	22 -> 23
+	23 -> 24
+	24 -> 25
+	25 -> 26
+	26 -> 27
+	27 -> 28
+	28 -> 29
+	29 -> 30
+	30 -> 31
+	31 -> 32
+	32 -> 33
+	33 -> 34
+	34 -> 35
+	35 -> 36
+	36 -> 37
+	37 -> 38
+	38 -> 39
+	39 -> 40
+	40 -> 41
+	41 -> 42
+	42 -> 43
+	43 -> 44
+	44 -> 45
+	45 -> 46
+	46 -> 47
+	47 -> 48
+	48 -> 49
+	49 -> 50
+	50 -> 51
+	51 -> 52
+	52 -> 53
+	53 -> 54
+	54 -> 55
+	55 -> 56
+	56 -> 57
+}
