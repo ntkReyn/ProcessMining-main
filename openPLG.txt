@@ -1,0 +1,2 @@
+cd D:\AI-namba\Project\PLG
+java -jar plg-2.1.1.jar
